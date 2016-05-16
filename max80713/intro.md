@@ -1,7 +1,7 @@
 # 推薦系統(book)
 主要分兩大方式：content-based和collaborative filtering
 
-### content-based：
+### Content-based:
 
 根據書的書名、作者、類型、出版社、系列等來作推薦。
 
@@ -9,10 +9,18 @@
 
 > 根據不同的屬性作推薦會有不同的效果
 
-### collaborative filtering：
+### Collaborative Filtering:
 
 根據消費者或是書的相似度來作推薦。
 
 例如：消費者A和消費者B若相似度高，則消費者A買的書可以拿來推薦給消費者B
 
-> 如何找出相似度高的消費者
+> 如何找出相似度高的消費者?
+
+## Utility Matrix:
+
+|   | a | b | c |
+|:-:|:-:|:-:|:-:|
+| A | 5 | 4 |   |
+| B |   |   | 2 |
+| C | 3 |   |   |
