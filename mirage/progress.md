@@ -1,19 +1,12 @@
-<<<<<<< HEAD
-﻿##目前進度整理
-=======
+
 ##目前進度整理
->>>>>>> origin/master
 
 ###2016/05/16
 
 依據作者分類會得到2222筆結果，其中有18筆數目是沒作者的，還需要對作者進行更進一步分類
-<<<<<<< HEAD
 
 select author, count(bookno) from booklist group by author
 
 整理一份簡單作者著作初稿，有作者跟著作的書名，如果可以用使用者購買的書籍作者資料進行搜尋就可找出同作者的書籍進行推薦
 
-=======
 
-SQL: select author, count(bookno) from booklist group by author
->>>>>>> origin/master
