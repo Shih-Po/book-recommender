@@ -10,6 +10,6 @@
  - test folder：以個人代號分別存放測試部分
 
 ## 書目資料：大鍾整理
- - http://miragechung.ddns.net/phpmyadmin/
+ - http://bookrecommender.hopto.org/phpmyadmin/
  - 帳密：book
 
