@@ -1,2 +1,9 @@
 mirage/BookCategory/src/books/XlsToDB.java
+
+
+# shihpo part
 shihpo/booklist.csv
+shihpo/.ipynb_checkpoints
+*.DS_Store
+*.RData
+*.Rhistory
