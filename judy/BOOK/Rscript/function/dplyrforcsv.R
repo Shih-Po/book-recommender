@@ -1,4 +1,5 @@
 library(dplyr)
+
 #設定路徑　
 setwd("E:/book-recommender/judy/BOOK")
 x<-readLines("./input/book.csv",encoding = "UTF-8")
@@ -20,6 +21,9 @@ colnames(x.sub)<-
   gsub("\\\\","",.)
 
 db<-x.sub
-db%>%na.exclude()%>%View()
-db[3454,]
+
+db[order(db[,1]) , ]%>%
+  na.exclude()%>%
+  .[-1:-43,]%>%
+  View()
 
